@@ -30,3 +30,22 @@ so that I can organize my thoughts and keep track of tasks I need to complete.
    - When clicked on an existing note in the list in the left-hand column, a note appears in the right-hand column.
    - When users click on the Write icon in the navigation at the top of the page, user is 
      resented with empty fields to enter a new note title and the note’s text in the right-hand column.
+
+
+
+
+ ## [License](#table-of-contents)
+  The application is covered under the following license:
+  
+  [apache](https://choosealicense.com/licenses/apache)
+    
+    
+  ## [Contributing](#table-of-contents)
+  
+    Feel free to contact me if there are any issues or ideas to implement.
+    
+  ## [Questions](#table-of-contents)
+  Contact Information Below:
+  [GitHub](https://github.com/arbinazari)
+
+  [Email: arbinazari@hotmail.com](mailto:arbinazari@hotmail.com)
