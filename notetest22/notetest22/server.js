@@ -4,7 +4,7 @@ var fs = require("fs");
 var notes = require("./db/db.json")
 
 var app = express();
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -81,4 +81,4 @@ function rewriteNotes() {
 
         console.log("Success!");
     });
-}
+}her
