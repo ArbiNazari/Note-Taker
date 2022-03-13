@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Express.js Challenge: Note Taker",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArbiNazari/Note-Taker.git"
+  },
+  "author": "Arbi Nazari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArbiNazari/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/ArbiNazari/Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
