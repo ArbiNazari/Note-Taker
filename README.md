@@ -52,3 +52,7 @@ so that I can organize my thoughts and keep track of tasks I need to complete.
   [GitHub](https://github.com/arbinazari)
 
   [Email: arbinazari@hotmail.com](mailto:arbinazari@hotmail.com)
+  
+  ![Untitled](https://user-images.githubusercontent.com/95839411/158097838-d34dd5a2-d7b6-401f-a035-59c68b87b327.jpg)
+
+  
