@@ -6,6 +6,7 @@
 
   ## Table-of-Contents
   * [Description and Task](#description)
+  * [LiveUrl](#link)
   * [License](#license)   
   * [Contributing](#contributing)
   * [Questions](#questions)
@@ -31,9 +32,11 @@ so that I can organize my thoughts and keep track of tasks I need to complete.
    - When users click on the Write icon in the navigation at the top of the page, user is 
      resented with empty fields to enter a new note title and the note’s text in the right-hand column.
 
+ ## [LiveUrl](#table-of-contents)
 
-
-
+ - Heroku Url Link: https://notetest22.herokuapp.com/
+ - GitHub: https://github.com/ArbiNazari/Note-Taker
+ 
  ## [License](#table-of-contents)
   The application is covered under the following license:
   
