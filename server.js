@@ -1,7 +1,7 @@
 var express = require("express");
 var path = require("path");
-var fs = require("fs");
 var notes = require("./db/db.json")
+var fs = require("fs");
 
 var app = express();
 var PORT = process.env.PORT || 3001;
@@ -11,7 +11,6 @@ app.use(express.json());
 
 currentID = notes.length;
 
-// API Routes
 
 app.get("/api/notes", function (req, res) {
 
@@ -50,11 +49,10 @@ app.delete("/api/notes/:id", function (req, res) {
     rewriteNotes();
 })
 
-// Access files in "public" folder
 
 app.use(express.static("public"));
 
-// HTML Routes
+
 
 app.get("/notes", function (req, res) {
     res.sendFile(path.join(__dirname, "public/notes.html"));
@@ -64,13 +62,11 @@ app.get("*", function (req, res) {
     res.sendFile(path.join(__dirname, "public/index.html"));
 });
 
-// Listen
 
 app.listen(PORT, function () {
     console.log("App listening on PORT " + PORT);
 });
 
-// Functions
 
 function rewriteNotes() {
     fs.writeFile("db/db.json", JSON.stringify(notes), function (err) {
